@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Vertex Shaders">
+      <UniqueIdentifier>{c900dc5c-0691-4731-8794-3b2b66653273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Pixel Shaders">
+      <UniqueIdentifier>{3b7efad1-3116-42be-941a-0c480dff8a64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Geometry Shaders">
+      <UniqueIdentifier>{3dcc371f-57ac-451b-b8d6-22f5b55ae5fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Hull Shaders">
+      <UniqueIdentifier>{1bd7804b-4719-46b7-9cab-a7357b2b4e4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Compute Shaders">
+      <UniqueIdentifier>{2895bf54-3cd6-4d7a-87c5-30be5632d4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Domain Shaders">
+      <UniqueIdentifier>{05e7a9ca-8772-4ce7-8d29-a35ddfc74271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{f121446e-47d1-4546-ac2e-447d6a727cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders">
+      <UniqueIdentifier>{436cc2a9-9a8e-4e9e-a09f-8db2677b494d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseworkApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingVolume.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlurShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputeShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ColourShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="InstanceShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="LightingShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="LightingShadowShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="TessellatedPlane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="BillboardingShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="InOutComputeShader.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CourseworkApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingVolume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlurShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputeShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ColourShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="LightingShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="LightingShadowShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderBuffers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TessellatedPlane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="BillboardingShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="InOutComputeShader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shaders\blurhz_cs.hlsl">
+      <Filter>Resource Files\Compute Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\blurvc_cs.hlsl">
+      <Filter>Resource Files\Compute Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\colour_ps.hlsl">
+      <Filter>Resource Files\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\lighting_ps.hlsl">
+      <Filter>Resource Files\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\lighting_shadow_ps.hlsl">
+      <Filter>Resource Files\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\particle_draw_ps.hlsl">
+      <Filter>Resource Files\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\texture_ps.hlsl">
+      <Filter>Resource Files\Pixel Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\colour_vs.hlsl">
+      <Filter>Resource Files\Vertex Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\lighting_shadow_vs.hlsl">
+      <Filter>Resource Files\Vertex Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\instance_vs.hlsl">
+      <Filter>Resource Files\Vertex Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\lighting_vs.hlsl">
+      <Filter>Resource Files\Vertex Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\particle_draw_vs.hlsl">
+      <Filter>Resource Files\Vertex Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\particle_update_vs.hlsl">
+      <Filter>Resource Files\Vertex Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\texture_vs.hlsl">
+      <Filter>Resource Files\Vertex Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\particle_draw_gs.hlsl">
+      <Filter>Resource Files\Geometry Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\particle_update_gs.hlsl">
+      <Filter>Resource Files\Geometry Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\billboard_gs.hlsl">
+      <Filter>Resource Files\Geometry Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\wave_ds.hlsl">
+      <Filter>Resource Files\Domain Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\wave_hs.hlsl">
+      <Filter>Resource Files\Hull Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\passthrough_vs.hlsl">
+      <Filter>Resource Files\Vertex Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\coc_cs.hlsl">
+      <Filter>Resource Files\Compute Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="shaders\merge_cs.hlsl">
+      <Filter>Resource Files\Compute Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
